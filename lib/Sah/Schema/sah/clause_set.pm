@@ -17,6 +17,10 @@ our $schema = [defhash => {
         default_lang => {},
         x => {},
 
+        # common to all types
+        examples => {},
+        invalid_examples => {},
+
         # incomplete
         clause => {
         },
