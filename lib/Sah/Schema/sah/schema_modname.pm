@@ -1,4 +1,4 @@
-package Sah::Schema::sah::schema_module;
+package Sah::Schema::sah::schema_modname;
 
 # AUTHORITY
 # DATE
