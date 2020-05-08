@@ -1,9 +1,11 @@
 package Sah::Schema::sah::str_schema;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
