@@ -1,6 +1,8 @@
 package Sah::Schema::sah::clause_set;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 # incomplete
@@ -27,6 +29,12 @@ our $schema = [defhash => {
         clset => {
         },
     },
+
+    examples => [
+        {value=>{}, valid=>1},
+        {value=>{min=>1, max=>1}, valid=>1},
+        #{value=>{"a b"=>1}, valid=>0},
+    ],
 }, {}];
 
 1;
