@@ -7,11 +7,10 @@ package Sah::Schema::sah::array_schema;
 
 our $schema = ['array' => {
     min_len => 1,
-    max_len => 3,
+    max_len => 2,
     elems => [
         ['sah::type_name', {req=>1}, {}],
         ['sah::clause_set', {}, {}],
-        ['sah::extras', {}, {}],
     ],
 
     examples => [
